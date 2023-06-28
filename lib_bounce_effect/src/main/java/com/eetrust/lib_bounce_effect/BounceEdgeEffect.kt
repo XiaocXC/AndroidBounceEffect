@@ -1,4 +1,4 @@
-package com.xiaoc.androidbounceeffect.edgeeffect
+package com.eetrust.lib_bounce_effect
 
 import android.view.View
 import android.widget.EdgeEffect

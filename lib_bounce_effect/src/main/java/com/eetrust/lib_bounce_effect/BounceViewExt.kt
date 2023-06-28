@@ -1,4 +1,4 @@
-package com.xiaoc.androidbounceeffect.edgeeffect
+package com.eetrust.lib_bounce_effect
 
 import android.view.View
 import android.widget.AbsListView
@@ -20,6 +20,7 @@ import androidx.viewpager2.widget.ViewPager2
  * @param overScrollMagnitude 拉动时的劲度系数，也就是拉动时的压力大小
  * @param flingMagnitude 到边缘时弹动灵敏度
  */
+@JvmOverloads
 fun View.setBounceEdgeEffect(
     orientation: Int = BounceEdgeEffect.ORIENTATION_VERTICAL,
     overScrollMagnitude: Float = BounceEdgeEffect.OVER_SCROLL_TRANSLATION_MAGNITUDE,
